@@ -160,4 +160,45 @@ print("I love {}, my subject is {}".format(language,subject))
 # I love python, my subject is xyhy
 ---------------------------------------------------
 
+## Simple Expressions
+
+### Boolean Evaluation: Boolean expressions are created with the keywords and, or, not and is. For example:
+and → True if both conditions are True
+or → True if at least one condition is True
+not → Reverses the result (True → False, False → True)
+is → True if two objects are the same object in memory(True is True: true, True is False: false)
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+## Branching/ conditional statement (if / elif / else): these are the control statements that execute a block of code based on the condition.
+
+Python provides the if statement to allow branching based on conditions.
+  Multiple elif checks can also be performed followed by an optional else clause.
+  The if statement can be used with any evaluation of truthiness.
+
+  1.if condition:  executes if condition is True
+Ex:  age = 18
+if age >= 18:
+    print("You are eligible to vote.")
+
+  2. elif another_condition: code if another_condition is True
+age = 16
+
+if age >= 18:
+    print("You can vote.")
+else:
+    print("You cannot vote.")
+
+  3. else: code if none of the above conditions are True   
+if - elif - else
+marks = 85
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 50:
+    print("Grade C")
+else:
+    print("Fail")
+
 
