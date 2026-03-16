@@ -1,1 +1,45 @@
+Decision TRee:
+A Decision Tree helps us to make decisions by mapping out different choices and their possible outcomes. 
+It’s used in machine learning for tasks like classification and prediction. 
+A Decision Tree helps us make decisions by showing different options and how they are related.
+It has a tree-like structure that starts with one main question called the root node which represents the entire dataset. 
+From there, the tree branches out into different possibilities based on features in the data.
+
+Root Node: Starting point representing the whole dataset.
+Branches: Lines connecting nodes showing the flow from one decision to another.
+Internal Nodes: Points where decisions are made based on data features.
+Leaf Nodes: End points of the tree where the final decision or prediction is made.
+Pruning in Decision Trees
+ Overfitting occurs when a tree becomes too deep and starts to memorize the training data rather than learning general patterns. 
+This leads to poor performance on new, unseen data.
+This technique reduces the complexity of the tree by removing branches that have little predictive power.
+It improves model performance by helping the tree generalize better to new data. It also makes the model simpler and faster to deploy.
+It is useful when a Decision Tree is too deep and starts to capture noise in the data.
+
+1. Pre-Pruning (Early Stopping)
+Pre-pruning, also known as early stopping, involves halting the growth of the decision tree before it becomes fully developed. 
+In this approach, we impose certain conditions (constraints) to stop the tree from growing beyond a certain depth or complexity. 
+This way, the tree is restricted from learning the noise in the training data.
+
+2. Post-Pruning (Pruning After Full Growth)
+Post-pruning, also known as cost-complexity pruning, is the process of growing the decision tree fully, allowing it to overfit the training data,
+and then trimming back unnecessary branches that do not contribute to improving accuracy on unseen data.
+
+
+
+
+
+
+
+
+
+Key Concepts:
+Root Node: The topmost node in the tree.
+Internal Node: Represents a feature test.
+Branch: Represents the outcome of a test.
+Leaf Node: Represents the final decision or prediction.
+Splitting: The process of dividing a node into two or more sub-nodes.
+Pruning: The process of removing branches that make the tree too specific (to
+avoid overfitting).
+
 
